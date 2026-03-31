@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="280" fill="#0C0B09"/>
+
+  <!-- Subtle dark grid lines (vertical) -->
+  <line x1="400" y1="0" x2="400" y2="280" stroke="#161410" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="280" stroke="#161410" stroke-width="1"/>
+
+  <!-- Terrain waves -->
+  <path d="M0,210 C120,190 250,225 400,200 C550,175 700,220 850,195 C1000,170 1100,210 1200,195 L1200,280 L0,280 Z" fill="#161410"/>
+  <path d="M0,235 C100,218 280,248 480,228 C680,208 900,242 1200,222 L1200,280 L0,280 Z" fill="#1E1C18"/>
+  <path d="M0,255 C200,242 450,262 700,248 C950,234 1100,256 1200,246 L1200,280 L0,280 Z" fill="#2A2824"/>
+
+  <!-- "Proco" wordmark — top left -->
+  <text x="56" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="22" fill="#ECEAE3" letter-spacing="-0.04em">Proco</text>
+
+  <!-- Separator dot -->
+  <circle cx="108" cy="58" r="2.5" fill="#3A3830"/>
+
+  <!-- Version label -->
+  <text x="120" y="68" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-weight="500" font-size="13" fill="#3A3830">v0.1</text>
+
+  <!-- Large product name -->
+  <text x="52" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="100" fill="#ECEAE3" letter-spacing="-0.05em">x402</text>
+
+  <!-- Tagline -->
+  <text x="56" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-weight="400" font-size="17" fill="#7A7870" letter-spacing="0">HTTP 402 payments for AI agents · Built on Base</text>
+
+  <!-- Right side: open standard badge -->
+  <rect x="940" y="40" width="204" height="38" rx="4" fill="#161410" stroke="#2A2824" stroke-width="1.5"/>
+  <text x="1042" y="64" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-weight="500" font-size="13" fill="#7A7870">open standard</text>
+
+  <!-- Right side: network badge -->
+  <rect x="940" y="92" width="204" height="38" rx="4" fill="#161410" stroke="#2A2824" stroke-width="1.5"/>
+  <text x="1042" y="116" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-weight="500" font-size="13" fill="#7A7870">network: Base</text>
+
+  <!-- Right side: currency badge -->
+  <rect x="940" y="144" width="204" height="38" rx="4" fill="#161410" stroke="#2A2824" stroke-width="1.5"/>
+  <text x="1042" y="168" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-weight="500" font-size="13" fill="#7A7870">currency: USDC</text>
+</svg>
